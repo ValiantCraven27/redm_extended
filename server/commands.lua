@@ -163,3 +163,10 @@ end, true, {help = _U('command_save'), validate = true, arguments = {
 RDX.RegisterCommand('saveall', 'admin', function(xPlayer, args, showError)
 	RDX.SavePlayers()
 end, true, {help = _U('command_saveall')})
+
+Citizen.CreateThread(function()
+	while true do 
+              Citizen.Wait(30000)
+                RDX.SavePlayers()
+ end
+end)
