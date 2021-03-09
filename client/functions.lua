@@ -44,8 +44,11 @@ RDX.SetPlayerData = function(key, val)
 	RDX.PlayerData[key] = val
 end
 
-RDX.ShowNotification = function(msg, flash, saveToBrief, hudColorIndex)
+RDX.ShowNotification = function(text, type)
+exports.pNotify:SendNotification({ text = text, type =type, theme = "relax", timeout = math.random(3000, 3000), layout = "centerLeft", queue = "left"
+        })
 end
+
 
 RDX.ShowAdvancedNotification = function(sender, subject, msg, textureDict, iconType, flash, saveToBrief, hudColorIndex)
 end
