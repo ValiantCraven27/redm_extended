@@ -49,7 +49,6 @@ exports.pNotify:SendNotification({ text = text, type =type, theme = "relax", tim
         })
 end
 
-
 RDX.ShowAdvancedNotification = function(sender, subject, msg, textureDict, iconType, flash, saveToBrief, hudColorIndex)
 end
 
@@ -889,8 +888,8 @@ AddEventHandler('rdx:serverCallback', function(requestId, ...)
 end)
 
 RegisterNetEvent('rdx:showNotification')
-AddEventHandler('rdx:showNotification', function(msg, flash, saveToBrief, hudColorIndex)
-	RDX.ShowNotification(msg, flash, saveToBrief, hudColorIndex)
+AddEventHandler('rdx:showNotification', function( text)
+	RDX.ShowNotification(text, "info")
 end)
 
 RegisterNetEvent('rdx:showAdvancedNotification')

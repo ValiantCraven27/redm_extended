@@ -60,12 +60,12 @@ html {
 #hud {
 	position: absolute;
 	font-family: 'Redemption';
-	font-size: 35px;
-	color: white;
-	padding: 4px;
+	font-size: 24px;
+	color: tan;
+	padding: 0.5px;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	text-align: right;
-	top: 80;
+	text-align: center;
+	top: 100;
 	right: 40;
 }
 
@@ -76,16 +76,16 @@ html {
 #inventory_notifications {
 	font-family: 'RDR Lino';
 	position: absolute;
-	right: 40;
-	bottom: 40;
-	font-size: 2em;
+	middle: 10;
+	bottom: 10;
+	font-size: 1.1em;
 	font-weight: bold;
 	color: #FFF;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .menu {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Redemption', sans-serif;
 	min-width: 400px;
 	min-height: 250px;
 	color: #fff;
@@ -95,7 +95,7 @@ html {
 }
 
 .menu .head {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Redemption', sans-serif;
 	font-size: 28px;
 	padding: 10px;
 	background: #1A1A1A;
@@ -113,19 +113,19 @@ html {
 
 .menu .head span {
 	font-family: 'RDR Lino';
-	font-size: 28px;
-	padding-left: 15px;
-	padding-top: 6px;
+	font-size: 24px;
+	padding-left: 12px;
+	padding-top: 4px;
 }
 
 .menu .menu-items .menu-item {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	height: 40px;
 	display: block;
 	background-color: #f1f1f1;
 	box-shadow: inset 1px 0px 0px 1px #b8b8b8;
-	height: 32px;
+	height: 20px;
 	line-height: 32px;
 	color: #3A3A3A;
 	text-align: center;
