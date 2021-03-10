@@ -1,6 +1,9 @@
 # RedM Extended [RDX]
 ![RedM Extended](https://i.imgur.com/OEjfYF0.jpg)
 
+Requires pNotify for RedM
+
+
 redm_extended is a roleplay framework for RedM, original code is from es_extended based on FiveM. The to-go framework for creating an economy based roleplay server on RedM!
 
 RDX was initially developed by Gizz back in 2017, later on developed and improved by ESX-Org and shutdown by kanersps by a DMCA takedown.
