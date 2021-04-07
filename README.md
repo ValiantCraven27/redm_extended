@@ -18,6 +18,7 @@ All credits go to ESX-Org for all the work they had in the original framework (e
 - [Async RedM](https://github.com/TigoDevelopment/redm-async/tree/master)
 - [MySQL (Async) RedM](https://github.com/TigoDevelopment/redm-mysql-async)
 - [RDX Framework Discord](https://discord.gg/HScTyEt)
+- pNotify for redm
 
 ## Features
 - Weight based inventory system
@@ -30,3 +31,4 @@ All credits go to ESX-Org for all the work they had in the original framework (e
 ## Screenshots
 ![RedM-Extended](https://i.imgur.com/Ijczndn.jpg)
 ![RedM-Extended](https://i.imgur.com/amlwgHj.jpg)
+
