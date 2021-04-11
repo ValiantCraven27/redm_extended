@@ -31,7 +31,7 @@ RDX.Player.Initialize = function(playerId, identifier, userData, cb)
 		RDX.Players[u].loadout = userData.loadout or {}
 		RDX.Players[u].name = userData.playerName or 'Unknown'
 		RDX.Players[u].variables = {}
-		RDX.Players[u].maxWeight = Config.maxWeight or 25
+		RDX.Players[u].maxWeight = Config.maxWeight
 		RDX.Players[u].createdAt = os.time()
 
 		ExecuteCommand(('add_principal identifier.license:%s group.%s'):format(RDX.Players[u].identifier, RDX.Players[u].group))

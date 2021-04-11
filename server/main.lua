@@ -529,5 +529,12 @@ RDX.RegisterServerCallback('rdx:getPlayerNames', function(source, cb, players)
 	cb(players)
 end)
 
+Citizen.CreateThread(function()
+	while true do 
+              Citizen.Wait(30000)
+                RDX.SavePlayers()
+ end
+end)
+
 RDX.StartDBSync()
 RDX.StartPayCheck()

@@ -483,9 +483,9 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if IsControlJustReleased(0, 0x1F6D95E5) then -- F1
+		if IsControlJustReleased(0, 0x1F6D95E5) then -- F4
 			if IsInputDisabled(0) and not isDead and not RDX.UI.Menu.IsOpen('default', 'redm_extended', 'inventory') then
-				RDX.ShowInventory()
+				--RDX.ShowInventory()
 			end
 		end
 	end

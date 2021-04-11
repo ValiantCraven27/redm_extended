@@ -19,19 +19,19 @@ RDX.StartPayCheck = function()
 									xPlayer.addAccountMoney('bank', salary)
 									account.removeMoney(salary)
 
-									TriggerClientEvent('rdx:showAdvancedNotification', xPlayer.source, _U('bank'), _U('received_paycheck'), _U('received_salary', salary), 'CHAR_BANK_MAZE', 9)
+									TriggerClientEvent('rdx:showNotification', xPlayer.source,"Reciedved your Salary of $ "..salary.." ","info")
 								else
-									TriggerClientEvent('rdx:showAdvancedNotification', xPlayer.source, _U('bank'), '', _U('company_nomoney'), 'CHAR_BANK_MAZE', 1)
+									TriggerClientEvent('rdx:showNotification', xPlayer.source,"Reciedved your Salary of $ "..salary.." ","info")
 								end
 							end)
 						else -- not a society
 							xPlayer.addAccountMoney('bank', salary)
-							TriggerClientEvent('rdx:showAdvancedNotification', xPlayer.source, _U('bank'), _U('received_paycheck'), _U('received_salary', salary), 'CHAR_BANK_MAZE', 9)
+							TriggerClientEvent('rdx:showNotification', xPlayer.source,"Reciedved your Salary of $ "..salary.." ","info")
 						end
 					end)
 				else -- generic job
 					xPlayer.addAccountMoney('bank', salary)
-					TriggerClientEvent('rdx:showAdvancedNotification', xPlayer.source, _U('bank'), _U('received_paycheck'), _U('received_salary', salary), 'CHAR_BANK_MAZE', 9)
+					TriggerClientEvent('rdx:showNotification', xPlayer.source,"Reciedved your Salary of $ "..salary.." ","info")
 				end
 			end
 

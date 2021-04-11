@@ -1,9 +1,6 @@
 # RedM Extended [RDX]
 ![RedM Extended](https://i.imgur.com/OEjfYF0.jpg)
 
-Requires pNotify for RedM
-
-
 redm_extended is a roleplay framework for RedM, original code is from es_extended based on FiveM. The to-go framework for creating an economy based roleplay server on RedM!
 
 RDX was initially developed by Gizz back in 2017, later on developed and improved by ESX-Org and shutdown by kanersps by a DMCA takedown.
@@ -18,7 +15,6 @@ All credits go to ESX-Org for all the work they had in the original framework (e
 - [Async RedM](https://github.com/TigoDevelopment/redm-async/tree/master)
 - [MySQL (Async) RedM](https://github.com/TigoDevelopment/redm-mysql-async)
 - [RDX Framework Discord](https://discord.gg/HScTyEt)
-- pNotify for redm
 
 ## Features
 - Weight based inventory system
@@ -31,4 +27,3 @@ All credits go to ESX-Org for all the work they had in the original framework (e
 ## Screenshots
 ![RedM-Extended](https://i.imgur.com/Ijczndn.jpg)
 ![RedM-Extended](https://i.imgur.com/amlwgHj.jpg)
-
